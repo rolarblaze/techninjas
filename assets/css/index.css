@@ -1,0 +1,151 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    letter-spacing: 1px;
+    color: #000;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+body {
+    line-height: 1.6em;
+}
+img {
+    width: 100%;
+}
+#c-navTop {
+    /* padding: 0px 30px; */
+}
+h1, h2 {
+    font-family: 'Lato', sans-serif;
+}
+h2 {
+    font-size: 1.9rem;
+    text-align: center;
+}
+#c-mainHeader {
+    background-image: linear-gradient(#00ffffa3,#000000fa),url('../image/three-woman-in-front-of-laptop-computer-1181233.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 80vh;
+}
+#c-heroSection {
+    width: 90%;
+    margin: 0px auto;
+}
+#c-heroSection h1 {
+    font-size: 3rem;
+}
+#c-heroText p {
+    font-size: 1.4rem;
+}
+#c-heroButton {
+    margin: 20px 0px;
+}
+#c-heroButton button {
+    width: 100%;
+    padding: 1rem;
+    margin: .6rem 0;
+}
+#c-features {
+    background-color: #f2f2f2;
+    padding: 10px 0px;
+}
+#c-aboutUs {
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+}
+#c-upComingSession{
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+}
+#c-services{
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+}
+#c-team {
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+}
+#c-partnership {
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+}
+.c-partnershipLogo {
+    display: flex;
+    align-items: center;
+}
+#c-newsletter {
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+}
+#c-aboutUsImage img {
+    width: 100%;
+}
+#c-learnMoreButton {
+    border-radius: 25px;
+    padding: 12px 14px;
+    background-color: transparent;
+    border: 1px solid black;
+}
+.c-getInvolvedCardAction {
+    padding: 0px !important;
+}
+.c-getInvolvedButton {
+    width: 100%;
+}
+#c-allSession {
+    text-align: center;
+}
+#c-allSession a {
+    margin-top: 1rem;
+}
+#c-upcomingSession-ns {
+    display: none;
+}
+.card .c-teamImage img {
+    border-radius: 50% !important;
+    width: 70% !important;
+    height: 250px !important;
+    margin: 8px auto !important;
+    padding: 21px 0px;
+}
+#c-inputFieldEmail {
+    padding: 0px;
+}
+.c-newsletterForm .row{
+    margin: 0px !important;
+    padding: 0px;
+}
+.row .c-newsletterForm {
+    padding: 0px;
+}
+input#email {
+    padding: 10px 14px;
+    width: 100%;
+}
+#c-subscribeButton {
+    width: 100%;
+}
+
+@media screen and (min-width: 48em) {
+    body {
+        /* display: none; */
+    }
+    #c-heroSection {
+        width: 50%;
+        margin: 8rem auto;
+    }
+    #c-heroSection h1 {
+        text-align: center;
+    }
+    #c-heroButton {
+        display: flex;
+        justify-content: space-evenly;
+    }
+    #c-heroButton button {
+        width: 40%;
+        padding: 1rem;
+    }
+}
